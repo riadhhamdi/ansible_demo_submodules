@@ -1,0 +1,6 @@
+---
+# tasks file for test-role
+- name: Show a message from inside collection 
+  debug:
+    msg: "A message from a role inside collection" 
+
